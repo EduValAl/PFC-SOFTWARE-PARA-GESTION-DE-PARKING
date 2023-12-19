@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Parking_Buena_ZonaPRUEBAOCR.jnlp">
+  <information>
+    <title>Parking_Buena_ZonaPRUEBAOCR</title>
+    <vendor>eduva</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Parking_Buena_ZonaPRUEBAOCR.jar" size="679662" download="eager" />
+    <jar href="lib\commons-beanutils-1.9.2.jar" size="233857" download="eager" />
+    <jar href="lib\commons-io-2.6.jar" size="214788" download="eager" />
+    <jar href="lib\fontbox-2.0.30.jar" size="1567969" download="eager" />
+    <jar href="lib\ghost4j-1.0.1.jar" size="180370" download="eager" />
+    <jar href="lib\hamcrest-core-1.3.jar" size="45280" download="eager" />
+    <jar href="lib\jai-imageio-core-1.4.0.jar" size="628053" download="eager" />
+    <jar href="lib\jbig2-imageio-3.0.0.jar" size="152468" download="eager" />
+    <jar href="lib\jcl-over-slf4j-1.7.25.jar" size="16515" download="eager" />
+    <jar href="lib\jna-4.1.0.jar" size="914597" download="eager" />
+    <jar href="lib\jul-to-slf4j-1.7.25.jar" size="4596" download="eager" />
+    <jar href="lib\junit-4.12.jar" size="316791" download="eager" />
+    <jar href="lib\lept4j-1.6.4.jar" size="7038389" download="eager" />
+    <jar href="lib\log4j-1.2.17.jar" size="489883" download="eager" />
+    <jar href="lib\log4j-over-slf4j-1.7.25.jar" size="23645" download="eager" />
+    <jar href="lib\logback-classic-1.2.3.jar" size="290339" download="eager" />
+    <jar href="lib\logback-core-1.2.3.jar" size="471901" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.26.jar" size="2462364" download="eager" />
+    <jar href="lib\opencv-3416.jar" size="646795" download="eager" />
+    <jar href="lib\org-apache-commons-logging.jar" size="60786" download="eager" />
+    <jar href="lib\pdfbox-2.0.30.jar" size="2781703" download="eager" />
+    <jar href="lib\slf4j.jar" size="29881" download="eager" />
+    <jar href="lib\tess4j-3.4.8.jar" size="5212199" download="eager" />
+    <jar href="lib\zxing-core-2.0.jar" size="432773" download="eager" />
+    <jar href="lib\zxing-javase.jar" size="14542" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="controlador.Main"  name="Parking_Buena_ZonaPRUEBAOCR" />
+  <update check="always"/>
+</jnlp>

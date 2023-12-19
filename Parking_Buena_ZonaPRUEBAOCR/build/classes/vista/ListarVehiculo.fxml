@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="655.0" prefWidth="1110.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.ListarVehiculoController">
+   <children>
+      <TableView fx:id="tabVehiculos" layoutX="90.0" layoutY="159.0" prefHeight="396.0" prefWidth="892.0" visible="false">
+        <columns>
+          <TableColumn fx:id="colMatricula" prefWidth="178.0" text="MATRICULA" />
+            <TableColumn fx:id="colFechaEntrada" minWidth="0.0" prefWidth="178.0" text="FECHA ENTRADA" />
+            <TableColumn fx:id="colFechaSalida" prefWidth="178.0" text="FECHA SALIDA" />
+            <TableColumn fx:id="colTiempoParking" prefWidth="178.0" text="TIEMPO PARKING" />
+          <TableColumn fx:id="colImporte" minWidth="6.333343505859375" prefWidth="178.0" text="IMPORTE" />
+        </columns>
+      </TableView>
+      <Button fx:id="botonListaEntradas" alignment="BASELINE_LEFT" layoutX="1.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#listarEntradas" prefHeight="57.0" prefWidth="377.0" styleClass="botonEntradas" stylesheets="@../css/css.css" text="Listar Entradas" textFill="#f2f2f2">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <graphic>
+            <ImageView fx:id="botonListarEntradas" fitHeight="45.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/clipboard_249282.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="botonListaSalidas" alignment="BASELINE_LEFT" layoutX="376.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#listarSalidas" prefHeight="57.0" prefWidth="364.0" styleClass="botonEntradas" stylesheets="@../css/css.css" text="Listar Salidas" textFill="#f2f2f2">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <graphic>
+            <ImageView fx:id="botonListarEntradas1" fitHeight="45.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/clipboard_249279.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="botonListaEntradasSalidas" alignment="BASELINE_LEFT" layoutX="739.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#listarEntradasSalidas" prefHeight="57.0" prefWidth="371.0" styleClass="botonEntradas" stylesheets="@../css/css.css" text="Listar Entradas/Salidas" textFill="#f2f2f2">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <graphic>
+            <ImageView fx:id="botonListarEntradas11" fitHeight="45.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagenes/clipboard_249280.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

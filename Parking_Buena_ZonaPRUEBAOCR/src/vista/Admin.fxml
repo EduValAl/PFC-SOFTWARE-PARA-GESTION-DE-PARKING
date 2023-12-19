@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="bp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1360.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.AdminController">
+   <left>
+      <VBox prefHeight="650.0" prefWidth="224.0" style="-fx-background-color: #434141;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="botonEntrada" alignment="BASELINE_LEFT" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#entradaVehiculo" prefHeight="59.0" prefWidth="303.0" styleClass="botonEntrada" stylesheets="@../css/css.css" text="Entrada Vehiculo" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/entrar.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="botonSalida" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#salidaVehiculo" prefHeight="59.0" prefWidth="303.0" styleClass="botonSalida" stylesheets="@../css/css.css" text="Salida Vehiculo" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/salir.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="botonListar" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="69.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#listarVehiculos" prefHeight="59.0" prefWidth="303.0" styleClass="botonListar" stylesheets="@../css/css.css" text="Listar Vehiculos" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/Listar%20coches.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="botonContabilidad" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="69.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#contabilidad" prefHeight="59.0" prefWidth="303.0" styleClass="botonSalida" stylesheets="@../css/css.css" text="Contabilidad" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/contable.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="botonSalir" alignment="BASELINE_LEFT" layoutX="10.0" layoutY="128.0" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onMouseClicked="#salir" prefHeight="59.0" prefWidth="303.0" styleClass="botonEntrada" stylesheets="@../css/css.css" text="Salir" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <graphic>
+                  <ImageView fitHeight="45.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/exit.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <top>
+      <AnchorPane prefHeight="50.0" prefWidth="908.0" style="-fx-background-color: #D8D5D5;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="50.0" prefWidth="224.0" style="-fx-background-color: #F2EFEF;">
+               <children>
+                  <ImageView fitHeight="30.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/parking.jpg" />
+                     </image>
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="18.0" right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <Label text="PARKING BUENAZONA">
+                     <HBox.margin>
+                        <Insets bottom="10.0" left="5.0" top="15.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Label fx:id="textAdmin" alignment="TOP_RIGHT" layoutX="1000.0" layoutY="13.0" text="HOLA, EDUARDO" AnchorPane.leftAnchor="1000.0" AnchorPane.rightAnchor="100.0">
+               <font>
+                  <Font name="System Bold Italic" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <ImageView fitHeight="264.0" fitWidth="264.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../imagenes/portadaAdmin.jpg" />
+         </image>
+         <BorderPane.margin>
+            <Insets right="70.0" />
+         </BorderPane.margin>
+      </ImageView>
+   </center>
+</BorderPane>

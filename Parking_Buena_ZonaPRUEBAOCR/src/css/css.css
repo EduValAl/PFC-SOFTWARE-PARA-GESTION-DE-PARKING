@@ -1,0 +1,125 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.botonEntrada{
+    -fx-background-color:  #2E2C2C;
+    -fx-text-fill: white;
+    
+    
+}
+
+.botonSalida{
+    -fx-background-color:  #2E2C2C;
+    -fx-text-fill: white;
+    
+}
+
+.botonListar{
+    -fx-background-color:  #2E2C2C;
+    -fx-text-fill: white;
+    
+}
+
+.botonSalir{
+    -fx-background-color:  #2E2C2C;
+    -fx-text-fill: white;
+    
+}
+
+.botonImporte{
+    -fx-background-color:  #2E2C2C;
+    -fx-text-fill: white;
+    
+}
+
+.botonEntrada:hover{
+    -fx-background-color:  #403E3E;
+    -fx-border-color: #85D4C1;
+    -fx-text-fill: #85D4C1;
+    -fx-border-width: 0px 0px 0px 3px;
+     
+}
+
+.botonSalida:hover{
+    -fx-background-color:  #403E3E;
+    -fx-border-color: #85D4C1;
+    -fx-text-fill: #85D4C1;
+    -fx-border-width: 0px 0px 0px 3px;
+     
+}
+
+.botonListar:hover{
+    -fx-background-color:  #403E3E;
+    -fx-border-color: #85D4C1;
+    -fx-text-fill: #85D4C1;
+    -fx-border-width: 0px 0px 0px 3px;
+     
+}
+
+.botonSalir:hover{
+    -fx-background-color:  #403E3E;
+    -fx-border-color: #85D4C1;
+    -fx-text-fill: #85D4C1;
+    -fx-border-width: 0px 0px 0px 3px;
+     
+}
+
+.botonImporte:hover{
+    -fx-background-color:  #403E3E;
+    -fx-border-color: #85D4C1;
+    -fx-text-fill: #85D4C1;
+    -fx-border-width: 0px 0px 3px 0px;
+     
+}
+
+.botonEntradas{
+    -fx-background-color:  white;
+    -fx-text-fill: #2E2D2D;
+}
+
+.botonSalidas{
+    -fx-background-color:  white;
+    -fx-text-fill: #2E2D2D;
+}
+
+.botonEntradasSalidas{
+    -fx-background-color:  white;
+    -fx-text-fill: #2E2D2D;
+}
+
+.botonEntradas:hover{
+    -fx-border-color: #85D4C1;
+    -fx-text-fill: #85D4C1;
+    -fx-border-width: 0px 0px 3px 0px;
+     
+}
+
+.botonSalidas:hover{
+    -fx-border-color: #85D4C1;
+    -fx-text-fill: #85D4C1;
+    -fx-border-width: 0px 0px 3px 0px;
+     
+}
+
+.botonEntradasSalidas:hover{
+    -fx-border-color: #85D4C1;
+    -fx-text-fill: #85D4C1;
+    -fx-border-width: 0px 0px 3px 0px;
+     
+}
+
+.background-pane{
+    -fx-background-image: url('../imagenes/imagenParking.jpg');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    
+    
+}
+
+
+.chart-bar.series0.chart-bar{
+    -fx-bar-fill: #85D4C1;
+}
+
+
